@@ -1,7 +1,0 @@
-[build]
-  base    = "alhamra-module1/textile-admin"
-  command = "npm run build"
-  publish = ".next"
-
-[build.environment]
-  NODE_VERSION = "20"
