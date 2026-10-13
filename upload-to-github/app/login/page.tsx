@@ -53,9 +53,8 @@ export default function LoginPage() {
 
       <section className="flex items-center justify-center px-5 py-12">
         <div className="w-full max-w-sm">
-          <div className="mb-8 lg:hidden">
-            <div className="inline-block rounded-xl bg-brand-900 px-4 py-3"><Logo /></div>
-          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo.png" alt="Al-Hamra Textile Industries (Pvt) Ltd." className="mb-8 h-24 w-auto" />
           <h2 className="text-2xl font-semibold tracking-tight text-slate-900">Log in</h2>
           <p className="mt-1 text-sm text-slate-500">Use the email and password given by your System Admin.</p>
 

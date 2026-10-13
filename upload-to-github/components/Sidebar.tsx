@@ -17,11 +17,10 @@ const NAV = [
 export function Logo() {
   return (
     <div className="flex items-center gap-2.5">
-      <svg className="h-8 w-8 shrink-0" viewBox="0 0 32 32" aria-hidden="true">
-        <rect width="32" height="32" rx="8" fill="#21635d" />
-        <path d="M8 10h16M8 16h16M8 22h16" stroke="#aad6d0" strokeWidth="2.5" strokeLinecap="round" />
-        <path d="M12 7v18M20 7v18" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" />
-      </svg>
+      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-white p-1">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/logo-mark.png" alt="" className="h-full w-full object-contain" />
+      </span>
       <div className="leading-tight">
         <div className="text-sm font-semibold text-white">Al-Hamra Textile</div>
         <div className="text-[11px] text-brand-200">Management Platform</div>
